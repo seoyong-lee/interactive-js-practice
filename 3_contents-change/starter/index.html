@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>콘텐츠 변경하기</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>콘텐츠 변경하기</h1>
+
+        <div class="layout">
+            <div id="profile" class="card">
+                <span id="badge" class="badge">신입</span>
+                <h2 id="name">홍길동</h2>
+                <p id="intro">안녕하세요. 자기소개를 준비 중입니다.</p>
+                <ul id="skills">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+            </div>
+
+            <div class="panel">
+                <button id="btn-name">1. 이름 바꾸기 (textContent)</button>
+                <button id="btn-intro">2. 소개 바꾸기 (innerHTML)</button>
+                <button id="btn-compare">3. textContent vs innerHTML 비교</button>
+                <button id="btn-skill">4. 스킬 추가하기 (innerHTML +=)</button>
+                <button id="btn-badge">5. 배지 통째로 바꾸기 (outerHTML)</button>
+
+                <div class="compare">
+                    <p>textContent로 넣은 결과 → <span id="as-text"></span></p>
+                    <p>innerHTML로 넣은 결과 → <span id="as-html"></span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

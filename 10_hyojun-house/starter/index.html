@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>효준이네 집</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>효준이네 집</h1>
+        <p id="status" class="status">효준이는 아직 밖에 있어요.</p>
+
+        <div class="layout">
+            <!-- 방(.room) 안에는 가구(.item)가 들어 있어요 -->
+            <div id="house" class="house">
+                <div class="room" data-name="안방"><span class="item">🛏️</span>안방</div>
+                <div class="room" data-name="작은방"><span class="item">📚</span>작은방</div>
+                <div class="room" data-name="욕실"><span class="item">🛁</span>욕실</div>
+                <div class="room wide" data-name="거실"><span class="item">🛋️</span><span class="item">📺</span>거실</div>
+                <div class="room" data-name="주방"><span class="item">🍳</span>주방</div>
+                <div class="room door" data-name="현관"><span class="item">👟</span>현관</div>
+            </div>
+
+            <div class="log">
+                <h2>이동 기록</h2>
+                <ol id="path"></ol>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

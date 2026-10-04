@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>버튼 클릭 이벤트</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>버튼 클릭 이벤트</h1>
+
+        <section>
+            <h2>1. 카운터</h2>
+            <p class="counter"><span id="count">0</span></p>
+            <div class="buttons">
+                <button id="btn-minus">-1</button>
+                <button id="btn-plus">+1</button>
+                <button id="btn-reset">초기화</button>
+            </div>
+            <p class="history">+1 버튼 클릭 기록: <span id="plus-clicks">0</span>번</p>
+        </section>
+
+        <section>
+            <h2>2. 한 번만 받는 쿠폰</h2>
+            <button id="btn-coupon">🎁 쿠폰 받기</button>
+            <p id="coupon-message" class="message">아직 쿠폰을 받지 않았어요.</p>
+        </section>
+    </div>
+</body>
+</html>

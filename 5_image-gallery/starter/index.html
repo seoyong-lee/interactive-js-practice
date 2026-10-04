@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이미지 갤러리</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>이미지 갤러리</h1>
+
+        <figure class="viewer">
+            <img id="main-image" src="images/mountain.svg" alt="산">
+            <figcaption id="caption">산</figcaption>
+        </figure>
+
+        <div class="tools">
+            <button id="btn-gray">흑백 보기</button>
+            <button id="btn-size">작게 보기</button>
+        </div>
+
+        <div class="thumbs">
+            <img class="thumb selected" src="images/mountain.svg" alt="산">
+            <img class="thumb" src="images/sea.svg" alt="바다">
+            <img class="thumb" src="images/city.svg" alt="도시">
+            <img class="thumb" src="images/forest.svg" alt="숲">
+            <img class="thumb" src="images/desert.svg" alt="사막">
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>청기 올려?! 백기 올려?!</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>청기 올려?! 백기 올려?!</h1>
+
+        <div class="status">
+            <p id="command" class="command">시작 버튼을 눌러 주세요</p>
+            <p>점수 <strong id="score">0</strong> · 남은 문제 <strong id="remain">10</strong></p>
+        </div>
+
+        <!-- 이 영역 안에서 마우스 버튼을 눌러요: 왼쪽 = 청기, 오른쪽 = 백기 -->
+        <div id="stage" class="stage">
+            <div class="person">
+                <div id="blue-flag" class="flag blue"></div>
+                <div class="face">🙂</div>
+                <div id="white-flag" class="flag white"></div>
+            </div>
+            <p class="guide">왼쪽 버튼 = 청기 · 오른쪽 버튼 = 백기</p>
+        </div>
+
+        <button id="btn-start">시작</button>
+    </div>
+</body>
+</html>

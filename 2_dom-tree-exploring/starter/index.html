@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM 트리 탐색하기</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>DOM 트리 탐색하기</h1>
+        <p class="guide">item3(메뉴 3)을 기준으로 부모, 자식, 형제 요소를 찾아 보세요.</p>
+
+        <nav>
+            <ul id="main-menu">
+                <li>메뉴 1</li>
+                <li>메뉴 2</li>
+                <li id="item3" class="active">메뉴 3 (활성)</li>
+                <li>메뉴 4</li>
+                <li>메뉴 5</li>
+            </ul>
+        </nav>
+
+        <div class="legend">
+            <span class="tag parent">부모</span>
+            <span class="tag prev">이전 형제</span>
+            <span class="tag next">다음 형제</span>
+        </div>
+    </div>
+</body>
+</html>

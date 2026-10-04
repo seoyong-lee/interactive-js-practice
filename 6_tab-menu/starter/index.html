@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>탭 메뉴 만들기</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>웹의 3요소</h1>
+
+        <div class="tabs">
+            <button class="tab active" data-tab="html">HTML</button>
+            <button class="tab" data-tab="css">CSS</button>
+            <button class="tab" data-tab="js">JavaScript</button>
+        </div>
+
+        <div class="panel active" data-panel="html">
+            <h2>HTML · 구조</h2>
+            <p>집의 뼈대처럼 제목, 문단, 버튼 같은 웹 페이지의 구조를 만듭니다.</p>
+        </div>
+        <div class="panel" data-panel="css">
+            <h2>CSS · 디자인</h2>
+            <p>인테리어처럼 색상, 크기, 위치를 정해 페이지를 꾸밉니다.</p>
+        </div>
+        <div class="panel" data-panel="js">
+            <h2>JavaScript · 동작</h2>
+            <p>전기와 수도처럼 클릭하면 반응하는 살아 있는 페이지를 만듭니다.</p>
+        </div>
+    </div>
+</body>
+</html>

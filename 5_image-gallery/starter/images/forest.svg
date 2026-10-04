@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="300" viewBox="0 0 480 300">
+<defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#b8e994"/><stop offset="1" stop-color="#f0fff0"/></linearGradient></defs>
+<rect width="480" height="300" fill="url(#sky)"/>
+<rect x="32" y="220" width="12" height="80" fill="#8d6e63"/><polygon points="10,240 38,150 66,240" fill="#27ae60"/><rect x="102" y="220" width="12" height="80" fill="#8d6e63"/><polygon points="80,240 108,170 136,240" fill="#1e8449"/><rect x="172" y="220" width="12" height="80" fill="#8d6e63"/><polygon points="150,240 178,130 206,240" fill="#2ecc71"/><rect x="242" y="220" width="12" height="80" fill="#8d6e63"/><polygon points="220,240 248,150 276,240" fill="#1e8449"/><rect x="312" y="220" width="12" height="80" fill="#8d6e63"/><polygon points="290,240 318,170 346,240" fill="#27ae60"/><rect x="382" y="220" width="12" height="80" fill="#8d6e63"/><polygon points="360,240 388,130 416,240" fill="#229954"/><rect x="442" y="220" width="12" height="80" fill="#8d6e63"/><polygon points="420,240 448,130 476,240" fill="#2ecc71"/>
+</svg>

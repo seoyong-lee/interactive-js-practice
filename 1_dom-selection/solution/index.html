@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM 선택 연습</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1 id="title">DOM 선택 연습</h1>
+        <p class="intro">개발자 도구(F12)의 Console 탭을 열고 각 테스트 버튼을 눌러 보세요.</p>
+
+        <section id="section-id">
+            <h2>테스트 1 · ID 선택</h2>
+            <p>getElementById로 제목(#title) 하나를 선택합니다.</p>
+            <button id="btn-test1">테스트 1 실행</button>
+        </section>
+
+        <section id="section-class">
+            <h2>테스트 2 · 클래스 선택</h2>
+            <p>getElementsByClassName으로 .box 요소를 모두 선택합니다.</p>
+            <div class="box-list">
+                <div class="box">박스 1</div>
+                <div class="box">박스 2</div>
+                <div class="box">박스 3</div>
+                <div class="box">박스 4</div>
+                <div class="box">박스 5</div>
+            </div>
+            <button id="btn-test2">테스트 2 실행</button>
+        </section>
+
+        <section id="section-tag">
+            <h2>테스트 3 · 태그 선택</h2>
+            <p>getElementsByTagName으로 문단(p) 태그를 모두 선택합니다.</p>
+            <button id="btn-test3">테스트 3 실행</button>
+        </section>
+
+        <section id="section-query">
+            <h2>테스트 4 · querySelector</h2>
+            <p>CSS 선택자에 맞는 첫 번째 요소 하나를 선택합니다.</p>
+            <ul id="item-list">
+                <li>항목 1</li>
+                <li class="active">항목 2</li>
+                <li>항목 3</li>
+                <li class="active">항목 4</li>
+                <li>항목 5</li>
+            </ul>
+            <button id="btn-test4">테스트 4 실행</button>
+        </section>
+
+        <section id="section-query-all">
+            <h2>테스트 5 · querySelectorAll</h2>
+            <p>CSS 선택자에 맞는 요소를 모두 선택해 하나씩 다룹니다.</p>
+            <button id="btn-test5">테스트 5 실행</button>
+            <button id="btn-all">전체 실행</button>
+            <button id="btn-reset">박스 이름 되돌리기</button>
+        </section>
+    </div>
+</body>
+</html>
